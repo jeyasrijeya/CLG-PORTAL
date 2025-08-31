@@ -14,7 +14,6 @@ function App() {
         <Header />
         <main className="main-content">
           <Routes>
-            <Route path="/" element={<AlumniDatabase />} />
             <Route path="/alumni" element={<AlumniDatabase />} />
             <Route path="/jobs" element={<JobPosts />} />
             <Route path="/mentoring" element={<MentoringPosts />} />

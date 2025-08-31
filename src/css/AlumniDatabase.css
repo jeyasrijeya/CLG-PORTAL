@@ -1,0 +1,14 @@
+.alumni-database h2 {
+  text-align: center;
+  color:rgb(22, 160, 215);
+  margin-bottom: 2rem;
+}
+
+.alumni-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.alumni-database h2:hover{
+    color: aqua;
+}

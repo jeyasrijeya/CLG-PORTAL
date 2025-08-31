@@ -1,0 +1,82 @@
+.job-posts {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+
+}
+.job-posts h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(22, 160, 215);
+}
+
+.job-card {
+   background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+button {
+  padding: 8px 14px;
+  margin-top: 10px;
+  border: none;
+  background: rgb(22, 160, 215);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+/* Modal Styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h3 {
+  margin-bottom: 15px;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.job-posts h2:hover {
+  color: aqua;
+}
+button:hover {
+  background: #154a83;
+  color: rgb(255, 255, 255);
+}
